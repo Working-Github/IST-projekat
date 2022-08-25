@@ -1,0 +1,74 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Oglasi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Oglas" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Kategorija"/>
+              <xs:element name="DatumIsteka">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:integer" name="Dan"/>
+                        <xs:simpletype>
+                            <xs:restriction base="xs:integer">
+                                <xs:mininclusive value="1"></xs:mininclusive>
+                                <xs:maxinclusive value="31"></xs:maxinclusive>
+                            </xs:restriction>
+                        </xs:simpletype>
+                    </xs:element>
+                    <xs:element type="xs:integer" name="Mesec"/>
+                        <xs:simpletype>
+                            <xs:restriction base="xs:integer">
+                                <xs:mininclusive value="1"></xs:mininclusive>
+                                <xs:maxinclusive value="12"></xs:maxinclusive>
+                            </xs:restriction>
+                        </xs:simpletype>
+                    <xs:element type="xs:integer" name="Godina"/>
+                        <xs:simpletype>
+                            <xs:restriction base="xs:integer">
+                                <xs:mininclusive value="2022"></xs:mininclusive>
+                                <xs:maxinclusive value="2050"></xs:maxinclusive>
+                            </xs:restriction>
+                        </xs:simpletype>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Cena">
+                <xs:restriction base="xs:decimal">
+                    <xs:minExclusive value="0"/>
+                        <xs:fractionDigits value="2"/>
+                </xs:restriction>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute type="xs:string" name="valuta" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="TekstOglasa"/>
+                <xs:simpletype>
+                    <xs:restriction base="xs:integer">
+                        <xs:mininclusive value="10"></xs:mininclusive>
+                        <xs:maxinclusive value="180"></xs:maxinclusive>
+                    </xs:restriction>
+                </xs:simpletype>
+              </xs:element>
+              <xs:element type="xs:string" name="Oznaka"/>
+              <xs:element name="MailOglasivaca">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="tip" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

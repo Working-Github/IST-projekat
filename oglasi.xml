@@ -1,1 +1,64 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Oglasi SYSTEM "oglasi.dtd">
+    <Oglasi>
+        <Oglas>
+            <Kategorija>Automobili</Kategorija>
+            <DatumIsteka>
+                <Dan>25</Dan>
+                <Mesec>9</Mesec>
+                <Godina>2022</Godina>
+            </DatumIsteka>
+            <Cena valuta="dinar">420000</Cena>
+            <TekstOglasa>Audi A3 2004 2.0 TDI 3xSline TOP.TOP. TOP. NOVO. NOVO. NOVO. </TekstOglasa>
+            <Oznaka>Audi, A3, 2003, Dizel, 1968cc</Oznaka>
+            <MailOglasivaca tip="privatni">mica@gmail.com</MailOglasivaca>
+        </Oglas>
+        <Oglas>
+            <Kategorija>Stan</Kategorija>
+            <DatumIsteka>
+                <Dan>12</Dan>
+                <Mesec>12</Mesec>
+                <Godina>2022</Godina>
+            </DatumIsteka>
+            <Cena valuta="dinar">12000</Cena>
+            <TekstOglasa>Stan na dan u centru Novog Sada</TekstOglasa>
+            <Oznaka>Novi Sad, centar, EXIT, Petrovaradin, Stan</Oznaka>
+            <MailOglasivaca tip="sluzbeni">stannadanns@gmail.com</MailOglasivaca>
+        </Oglas>
+        <Oglas>
+            <Kategorija>Igracke</Kategorija>
+            <DatumIsteka>
+                <Dan>14</Dan>
+                <Mesec>10</Mesec>
+                <Godina>2022</Godina>
+            </DatumIsteka>
+            <Cena valuta="dinar">600</Cena>
+            <TekstOglasa>Hotwheels Ford Focus RS</TekstOglasa>
+            <Oznaka>Igracka, Hotwheels, Ford Focus RS, zabava, poklon</Oznaka>
+            <MailOglasivaca tip="privatni">joca@gmail.com</MailOglasivaca>
+        </Oglas>
+        <Oglas>
+            <Kategorija>Namestaj</Kategorija>
+            <DatumIsteka>
+                <Dan>11</Dan>
+                <Mesec>11</Mesec>
+                <Godina>2022</Godina>
+            </DatumIsteka>
+            <Cena valuta="dinar">1400</Cena>
+            <TekstOglasa>Plasticna stolica sa naslonom za ruke</TekstOglasa>
+            <Oznaka>Namestaj, Terasa, Dvoriste, Plastina stolica</Oznaka>
+            <MailOglasivaca tip="privatni">dragoljub@gmail.com</MailOglasivaca>
+        </Oglas>
+        <Oglas>
+            <Kategorija>Usluge</Kategorija>
+            <DatumIsteka>
+                <Dan>15</Dan>
+                <Mesec>9</Mesec>
+                <Godina>2022</Godina>
+            </DatumIsteka>
+            <Cena valuta="dinar">2000</Cena>
+            <TekstOglasa>Kupujemo staro gvozdje, akumulatore, ves masine, bojlere i sve sekundarne sirovine. Cistimo dvorista, podrume supe i odnosimo nepotrebne stvari</TekstOglasa>
+            <Oznaka>Ciscenje, Otkup sirovina, Utovar, Istovar, Prenos suta</Oznaka>
+            <MailOglasivaca tip="sluzbeni">milos@gmail.com</MailOglasivaca>
+        </Oglas>
+    </Oglasi>

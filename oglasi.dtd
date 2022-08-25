@@ -1,0 +1,14 @@
+<!ELEMENT Oglasi (Oglas+)>
+<!ELEMENT Oglas (Kategorija, DatumIsteka,Cena, TekstOglasa, Oznaka+, MailOglasivaca+)>
+<!ELEMENT Kategorija (Automobili, Stan, Igracke, Namestaj, Usluge)>
+<!ELEMENT DatumIsteka (Dan, Mesec, Godina)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT TekstOglasa (#PCDATA)>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT MailOglasivaca (#PCDATA)>
+
+<!ATTLIST MailOglasivaca tip (sluzbeni|privatni) #REQUIRED>
+<!ATTLIST Cena valuta (dinar) "dinar">

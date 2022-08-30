@@ -1,0 +1,96 @@
+{
+	"Oglasi": {
+		"Oglas": [
+			{
+				"Kategorija": "Automobili",
+				"DatumIsteka": {
+					"Dan": "25",
+					"Mesec": "9",
+					"Godina": "2022"
+				},
+				"Cena": {
+					"_valuta": "dinar",
+					"__text": "420000"
+				},
+				"TekstOglasa": "Audi A3 2004 2.0 TDI 3xSline TOP.TOP. TOP. NOVO. NOVO. NOVO.",
+				"Oznaka": "Audi, A3, 2003, Dizel, 1968cc",
+				"MailOglasivaca": {
+					"_tip": "privatni",
+					"__text": "mica@gmail.com"
+				}
+			},
+			{
+				"Kategorija": "Stan",
+				"DatumIsteka": {
+					"Dan": "12",
+					"Mesec": "12",
+					"Godina": "2022"
+				},
+				"Cena": {
+					"_valuta": "dinar",
+					"__text": "12000"
+				},
+				"TekstOglasa": "Stan na dan u centru Novog Sada",
+				"Oznaka": "Novi Sad, centar, EXIT, Petrovaradin, Stan",
+				"MailOglasivaca": {
+					"_tip": "sluzbeni",
+					"__text": "stannadanns@gmail.com"
+				}
+			},
+			{
+				"Kategorija": "Igracke",
+				"DatumIsteka": {
+					"Dan": "14",
+					"Mesec": "10",
+					"Godina": "2022"
+				},
+				"Cena": {
+					"_valuta": "dinar",
+					"__text": "600"
+				},
+				"TekstOglasa": "Hotwheels Ford Focus RS",
+				"Oznaka": "Igracka, Hotwheels, Ford Focus RS, zabava, poklon",
+				"MailOglasivaca": {
+					"_tip": "privatni",
+					"__text": "joca@gmail.com"
+				}
+			},
+			{
+				"Kategorija": "Namestaj",
+				"DatumIsteka": {
+					"Dan": "11",
+					"Mesec": "11",
+					"Godina": "2022"
+				},
+				"Cena": {
+					"_valuta": "dinar",
+					"__text": "1400"
+				},
+				"TekstOglasa": "Plasticna stolica sa naslonom za ruke",
+				"Oznaka": "Namestaj, Terasa, Dvoriste, Plastina stolica",
+				"MailOglasivaca": {
+					"_tip": "privatni",
+					"__text": "dragoljub@gmail.com"
+				}
+			},
+			{
+				"Kategorija": "Usluge",
+				"DatumIsteka": {
+					"Dan": "15",
+					"Mesec": "9",
+					"Godina": "2022"
+				},
+				"Cena": {
+					"_valuta": "dinar",
+					"__text": "2000"
+				},
+				"TekstOglasa": "Kupujemo staro gvozdje, akumulatore, ves masine, bojlere i sve sekundarne sirovine. Cistimo dvorista, podrume supe i odnosimo nepotrebne stvari",
+				"Oznaka": "Ciscenje, Otkup sirovina, Utovar, Istovar, Prenos suta",
+				"MailOglasivaca": {
+					"_tip": "sluzbeni",
+					"__text": "milos@gmail.com"
+				}
+			}
+		]
+	}
+}
